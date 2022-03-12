@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kepil Hil</title>
+    <link rel="icon" href="/img/logo/logo.png">
+    <link rel="stylesheet" href="/css/app.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar shadow-none bg-white"
+            style="border-bottom: 1px solid orange;">
+            <div class="container">
+                <div class="header d-flex justify-content-between w-100">
+                    <div class="header__logo">
+                        <img src="/img/logo/logo.png" alt="logo">
+                    </div>
+                    <div class="menu__icon">
+                        <span></span>
+                    </div>
+                    <nav class="header__menu">
+                        <div class="header__menu-list">
+                            <a href="/" class="header__menu-item">About us</a>
+                            <a href="service.html" class="header__menu-item active">Services</a>
+                            <a href="license.html" class="header__menu-item">Our licenses</a>
+                            <a href="service-center.html" class="header__menu-item">Our service center</a>
+                            <a href="contact.html" class="header__menu-item">Contact us</a>
+                            <div class="dropdown">
+                                <button class="dropbtn">
+                                    <img class="lang__icon" src="/img/english.webp" alt="image">
+                                    English</button>
+                                <div class="dropdown-content">
+                                    <a href="/ru/service.html">
+                                        <img class="lang__icon" src="/img/russian.webp" alt="image"> Русский
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <div class="wrapper">
+            <section>
+                <div class="container">
+                    <div class="full__service">
+                        <div class="full__service-title" data-aos="zoom-in">
+                            <h2 class="title font-weight-bolder">Full Service Cycle</h2>
+                        </div>
+                        <div class="full__service-img">
+                            <div class="full__service-bg1" data-aos="fade-right">
+                                <div class="full__service-gradient1">
+                                    <p class="text">
+                                        Repair and maintenance of vehicles
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="full__service-bg2" data-aos="zoom-in">
+                                <div class="full__service-gradient2">
+                                    <p class="text">
+                                        Vehicle diagnostics and prevention services
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="full__service-bg3" data-aos="fade-left">
+                                <div class="full__service-gradient3">
+                                    <p class="text">
+                                        Supply and replacement of spare parts for vehicles
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr class="w-100">
+            </section>
+            <section>
+                <div class="container-fluid">
+                    <div class="license__works">
+                        <div class="digital__exp" data-aos="fade-right">
+                            <h2 class="title font-weight-bold">
+                                Digital expression of company indicators
+                            </h2>
+                        </div>
+                        <div class="license__types" data-aos="zoom-in">
+                            <p class="text font-weight-bold">Licenses for types of works:
+                            </p>
+                            <ul>
+                                <li>Construction</li>
+                                <li>Design Services</li>
+                                <li>Logistics</li>
+                                <li>Transport of any type of cargo</li>
+                                <li>Freight forwarding services</li>
+                                <li>Service</li>
+                                <li>Trading</li>
+                                <li>Agriculture</li>
+                                <li>Production</li>
+                                <li>Wholesale trade of Chemical Products</li>
+                            </ul>
+                        </div>
+                        <div class="employees" data-aos="fade-left">
+                            <div class="d-flex">
+                                <span id="number" class="gold-digital font-weight-bold number">
+                                    250
+                                </span>
+                                <span class="gold-digital font-weight-bold">+</span>
+                            </div>
+                            <p class="text-digital">
+                                Employees in a group of companies
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <hr class="w-100">
+            </section>
+        </div>
+        <footer>
+            <p class="copyright text-center text-muted mt-3">Kepil Hil © 2022</p>
+        </footer>
+    </main>
+    <script src="/js/app.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            disable: function () {
+                var MaxWidth = 1024;
+                return window.innerWidth < MaxWidth;
+            }
+        });
+    </script>
+</body>
+
+</html>

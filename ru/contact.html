@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kepil Hil</title>
+    <link rel="icon" href="/img/logo/logo.png">
+    <link rel="stylesheet" href="/css/app.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar shadow-none bg-white"
+            style="border-bottom: 1px solid orange;">
+            <div class="container">
+                <div class="header d-flex justify-content-between w-100">
+                    <div class="header__logo">
+                        <img src="/img/logo/logo.png" alt="logo">
+                    </div>
+                    <div class="menu__icon">
+                        <span></span>
+                    </div>
+                    <nav class="header__menu">
+                        <div class="header__menu-list">
+                            <a href="/ru/index.html" class="header__menu-item">О компании</a>
+                            <a href="/ru/service.html" class="header__menu-item">Услуги</a>
+                            <a href="/ru/license.html" class="header__menu-item">Наши лицензии</a>
+                            <a href="/ru/service-center.html" class="header__menu-item">Наш сервис центр</a>
+                            <a href="/ru/contact.html" class="header__menu-item active">Контакты</a>
+                            <div class="dropdown">
+                                <button class="dropbtn">
+                                    <img class="lang__icon" src="/img/russian.webp" alt="image"> Русский
+                                </button>
+                                <div class="dropdown-content">
+                                    <a href="/contact.html">
+                                        <img class="lang__icon" src="/img/english.webp" alt="image"> English
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <div class="wrapper">
+            <section>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div data-aos="zoom-in">
+                                <h2 class="title font-weight-bolder mt-5">КОНТАКТНЫЕ ДАННЫЕ</h2>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-3 col-md-6 col-sm-12 col-12" data-aos="fade-right">
+                                    <div class="d-flex mt-3">
+                                        <img class="contact-icon" src="/img/phone icon.webp" alt=" ">
+                                        <p class="mb-0 align-self-center"><a href="tel:+993 12 75 43 19"
+                                                style="color: #000;">+993 12 75
+                                                43 19</a></p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6 col-sm-12 col-12" data-aos="zoom-in">
+                                    <div class="d-flex mt-3">
+                                        <img class="contact-icon" src="/img/message icon.webp" alt=" ">
+                                        <p class="mb-0 align-self-center"><a href="mailto:info@kepilhil.com"
+                                                style="color: #000;">info@kepilhil.com</a></p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-12 col-sm-12 col-12" data-aos="fade-left">
+                                    <div class="d-flex mt-3">
+                                        <img class="contact-icon" src="/img/address icon.webp" alt=" ">
+                                        <p class="mb-0 align-self-center">N. Gullayev str., building # 33, 744000,
+                                            Ashgabat
+                                            city,
+                                            Turkmenistan</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container mt-5">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h2 class="title font-weight-bolder" data-aos="zoom-in">ГДЕ МЫ НАХОДИМСЯ</h2>
+                            
+                            <div style="width: 100%;height: 359px" id="mapar86kyfu"></div>
+                            <script>
+                                function YandexReadyHandlerar86kyfu() {
+                                    var map = new ymaps.Map("mapar86kyfu", {
+                                        center: [37.96635597429057, 58.41346053813868],
+                                        zoom: 16,
+                                        controls: ["zoomControl", "typeSelector"],
+                                        type: "yandex#satellite"
+                                    }, {
+                                        suppressMapOpenBlock: true
+                                    });
+                                    map.geoObjects.add(new ymaps.GeoObject({
+                                        geometry: {
+                                            type: "Point",
+                                            coordinates: [37.96620308670933, 58.411287948836616],
+                                            hideIconOnBalloonOpen: false
+                                        },
+                                        properties: {
+                                            balloonContent: decodeURIComponent("%3Cp%3EKepil%20Hil%3C%2Fp%3E"),
+                                            iconCaption: decodeURIComponent("Kepil%20Hil"),
+                                            hintCaption: decodeURIComponent("Kepil%20Hil"),
+                                        }
+                                    }, {
+                                        preset: "islands#blueIcon",
+                                    }));
+                                    return map;
+                                }
+                            </script>
+                            <script
+                                src="//api-maps.yandex.ru/2.1/?apikey=YOUR_API_KEY&lang=ru&onload=YandexReadyHandlerar86kyfu"
+                                type="text/javascript"></script>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <hr class="w-100">
+        <footer>
+            <p class="copyright text-center text-muted mt-3">Kepil Hil © 2022</p>
+        </footer>
+    </main>
+    <script src="/js/app.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            disable: function () {
+                var MaxWidth = 1024;
+                return window.innerWidth < MaxWidth;
+            }
+        });
+    </script>
+</body>
+</html>
