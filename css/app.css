@@ -399,26 +399,26 @@ body.__lock {
     .header__logo {
         z-index: 1;
     }
-    .header__menu_list {
+    .header__menu-list {
         flex-direction: column;
     }
-    .header__menu_item {
+    .header__menu-item {
         margin-bottom: 30px;
         font-size: 40px;
     }
     .dropbtn {
         font-size: 35px;
     }
-    .full__service_img {
+    .full__service-img {
         flex-direction: column;
     }
-    .full__service_gradient1 {
+    .full__service-gradient1 {
         height: 600px;
     }
-    .full__service_gradient2 {
+    .full__service-gradient2 {
         height: 600px;
     }
-    .full__service_gradient3 {
+    .full__service-gradient3 {
         height: 600px;
     }
     .license__works {
@@ -454,7 +454,7 @@ body.__lock {
 }
 
 @media(max-width: 540px) {
-    .header__menu_item {
+    .header__menu-item {
         font-size: 35px;
     }
     .license__types {
